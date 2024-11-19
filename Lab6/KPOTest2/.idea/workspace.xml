@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0dc196b6-3f2a-43f1-8c31-6aa59e0fdeaf" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2p3cZAKaUJsTSkTqmwHNhxpy0zy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MyConfig1.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.BookingControllerTest.executor": "Run",
+    "JUnit.LoginControllerTest.executor": "Run",
+    "JUnit.ProductDetailsControllerTest.executor": "Run",
+    "JUnit.ProductListControllerTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Илья/IdeaProjects/KPOTest2/javafx-sdk-23.0.1",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Илья\IdeaProjects\KPOTest2\src\main" />
+      <recent name="C:\Users\Илья\IdeaProjects\KPOTest2\src\test\java" />
+      <recent name="C:\Users\Илья\IdeaProjects\KPOTest2\src\main\java" />
+      <recent name="C:\Users\Илья\IdeaProjects\KPOTest2\src\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductListControllerTest">
+    <configuration name="MyConfig1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.figmaapp.Main" />
+      <module name="figmaapp" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\Илья\IdeaProjects\KPOTest2\javafx-sdk-23.0.1\lib --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="figmaapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.figmaapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.figmaapp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.figmaapp.BookingControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="figmaapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.figmaapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.figmaapp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.figmaapp.LoginControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductDetailsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="figmaapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.figmaapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.figmaapp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.figmaapp.ProductDetailsControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductListControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="figmaapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.figmaapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.figmaapp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.figmaapp.ProductListControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyConfig1" />
+      <item itemvalue="JUnit.BookingControllerTest" />
+      <item itemvalue="JUnit.ProductDetailsControllerTest" />
+      <item itemvalue="JUnit.ProductListControllerTest" />
+      <item itemvalue="JUnit.LoginControllerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductListControllerTest" />
+        <item itemvalue="JUnit.ProductDetailsControllerTest" />
+        <item itemvalue="JUnit.BookingControllerTest" />
+        <item itemvalue="JUnit.LoginControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0dc196b6-3f2a-43f1-8c31-6aa59e0fdeaf" name="Changes" comment="" />
+      <created>1731998255413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731998255413</updated>
+    </task>
+    <servers />
+  </component>
+</project>
