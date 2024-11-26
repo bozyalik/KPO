@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.figmaapp.ProductDetailsController"
+      spacing="10" style="-fx-padding: 10;">
+
+    <Label text="Сведения о товаре">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Label>
+    <Label text="Аудиокассета Back On Black BURZUM - HVIS LYSET TAR OSS">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Label>
+    <Label text="Описание: ...">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Label>
+    <Label text="Цена: 2500₽">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Label>
+
+    <Button fx:id="bookButton" text="Забронировать сейчас" onAction="#handleBookingAction">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Button>
+    <Button fx:id="backToListButton" text="Вернуться к каталогу" onAction="#handleBackToListAction">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Button>
+
+</VBox>

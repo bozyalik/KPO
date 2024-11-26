@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="center" spacing="20" style="-fx-padding: 20;"
+      xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.figmaapp.BookingController">
+
+    <Label text="BURZUM - HVIS LYSET">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Label>
+    <Label text="TAR OSS">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Label>
+
+    <Label text="Время начала брони">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Label>
+    <TextField fx:id="fromField" promptText="00:00"/>
+
+    <Label text="Время окончания брони">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Label>
+    <TextField fx:id="toField" promptText="00:00"/>
+
+    <TextField fx:id="additionalInfoField" promptText="Ваш комментарий (необязательное поле)"/>
+
+    <Button fx:id="bookButton" text="ЗАБРОНИРОВАТЬ" onAction="#handleBookAction">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Button>
+
+</VBox>

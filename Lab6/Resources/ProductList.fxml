@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.figmaapp.ProductListController"
+      spacing="10" prefWidth="300" style="-fx-padding: 10;">
+
+    <Button fx:id="menuButton" text="Меню" onAction="#handleMenuButtonAction">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Button>
+
+    <ScrollPane fitToWidth="true" vbarPolicy="ALWAYS">
+        <VBox fx:id="productContainer" spacing="10">
+
+            <HBox spacing="10" alignment="TOP_LEFT">
+                <ImageView fitWidth="80" fitHeight="100" preserveRatio="true">
+                    <image>
+                        <Image url="@/burzum.jpg"/>
+                    </image>
+                </ImageView>
+                <VBox spacing="5" style="-fx-padding: 0;">
+                    <Label text="Аудиокассета Back On Black BURZUM - HVIS LYSET TAR OSS" wrapText="true">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Label text="Рейтинг: 5.0 (3 отзыва)">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Label text="Цена: 2500₽">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Button text="Подробнее" onAction="#handleProductDetailsAction">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Button>
+                </VBox>
+            </HBox>
+
+            <HBox spacing="10" alignment="TOP_LEFT">
+                <ImageView fitWidth="80" fitHeight="100" preserveRatio="true">
+                    <image>
+                        <Image url="@/burzum2.jpg"/>
+                    </image>
+                </ImageView>
+                <VBox spacing="5" style="-fx-padding: 0;">
+                    <Label text="Аудиокассета Back On Black BURZUM - HLIDSKJALF" wrapText="true">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Label text="Рейтинг: 4.8 (4 отзыва)">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Label text="Цена: 2300₽">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Button text="Подробнее" onAction="#handleProductDetailsAction">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Button>
+                </VBox>
+            </HBox>
+
+            <HBox spacing="10" alignment="TOP_LEFT">
+                <ImageView fitWidth="80" fitHeight="100" preserveRatio="true">
+                    <image>
+                        <Image url="@/pulp_fiction.jpg"/>
+                    </image>
+                </ImageView>
+                <VBox spacing="5" style="-fx-padding: 0;">
+                    <Label text="Аудиокассета Pulp Fiction Original Soundtrack" wrapText="true">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Label text="Рейтинг: 4.7 (15 отзывов)">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Label text="Цена: 700₽">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Label>
+                    <Button text="Подробнее" onAction="#handleProductDetailsAction">
+                        <font>
+                            <Font name="BenguiatGothicCTT" size="24"/>
+                        </font>
+                    </Button>
+                </VBox>
+            </HBox>
+
+        </VBox>
+    </ScrollPane>
+
+    <Button fx:id="profileButton" text="Мой профиль" onAction="#handleProfileButtonAction">
+        <font>
+            <Font name="BenguiatGothicCTT" size="24"/>
+        </font>
+    </Button>
+
+</VBox>
